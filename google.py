@@ -6,7 +6,7 @@ import urllib.request
 
 options = webdriver.ChromeOptions()
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
-driver = webdriver.Chrome(options=options, executable_path="C:\\Users\\yjs12\\workspace\\pythonworkspace\\crawling\\selenium\\chromedriver.exe")
+driver = webdriver.Chrome(options=options, executable_path="크롬 드라이버 경로")
 
 #driver = webdriver.Chrome(executable_path="C:\\Users\\yjs12\\workspace\\pythonworkspace\\crawling\\selenium\\chromedriver.exe")
 driver.get("https://www.google.co.kr/imghp?hl=ko&tab=wi&authuser=0&ogbl")
